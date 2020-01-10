@@ -1,0 +1,28 @@
+{
+  "name": "testswiftoc",
+  "version": "0.1.0",
+  "summary": "A short description of testswiftoc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/slb2709673/testswiftoc.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "slb2709673@126.com": "slb2709673@126.com"
+  },
+  "source": {
+    "git": "https://github.com/slb2709673/testswiftoc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testswiftoc/Classes/**/*",
+  "swift_version": "4.2",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

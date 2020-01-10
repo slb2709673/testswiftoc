@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1199B6EA9EE26ECA0407085B /* Pods_testswiftoc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testswiftoc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		322E838052AC6D2FE4CA1B57 /* Pods-testswiftoc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiftoc_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-testswiftoc_Example/Pods-testswiftoc_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3B1EBC9F3EBC8C2999803C58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3B1EBC9F3EBC8C2999803C58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* testswiftoc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testswiftoc_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		61334904756DA0D29A623181 /* testswiftoc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testswiftoc.podspec; path = ../testswiftoc.podspec; sourceTree = "<group>"; };
+		61334904756DA0D29A623181 /* testswiftoc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testswiftoc.podspec; path = ../testswiftoc.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		916354491833BD5A7CE0D26D /* Pods_testswiftoc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testswiftoc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94043BC513017B3B01665272 /* Pods-testswiftoc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiftoc_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testswiftoc_Example/Pods-testswiftoc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B8B658BF2C80B60FF94DE7A3 /* Pods-testswiftoc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiftoc_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testswiftoc_Tests/Pods-testswiftoc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C4CF2C7B8A4897B9927E2A48 /* Pods-testswiftoc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiftoc_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testswiftoc_Tests/Pods-testswiftoc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D2BE679162084A14C63C6483 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D2BE679162084A14C63C6483 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,10 +356,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-testswiftoc_Example/Pods-testswiftoc_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/testswiftoc/testswiftoc.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testswiftoc.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
