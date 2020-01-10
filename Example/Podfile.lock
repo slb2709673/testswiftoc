@@ -25,7 +25,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - testswiftoc (0.1.0):
+  - testswiftoc (1.0.0):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
@@ -44,7 +44,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  testswiftoc: 3da17bcabc4cac599b934c975424485bbbb97ba7
+  testswiftoc: 39a8e9f584a89a7e41139798096dd4a50f850474
 
 PODFILE CHECKSUM: eb5ea41b6c3b989492978544bdb5816eb7b44c8e
 
