@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'testswiftoc_Example' do
+  pod 'testswiftoc', :path => '../'
+
+  target 'testswiftoc_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
