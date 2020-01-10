@@ -10,10 +10,8 @@
 #endif
 #endif
 
-#ifndef TARGET_OS_IOS
-  #define TARGET_OS_IOS TARGET_OS_IPHONE
-#endif
+#import "SLBLog.h"
 
-#ifndef TARGET_OS_WATCH
-  #define TARGET_OS_WATCH 0
-#endif
+FOUNDATION_EXPORT double slbswifttestVersionNumber;
+FOUNDATION_EXPORT const unsigned char slbswifttestVersionString[];
+

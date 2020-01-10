@@ -1,51 +1,23 @@
 PODS:
-  - AFNetworking (2.7.0):
-    - AFNetworking/NSURLConnection (= 2.7.0)
-    - AFNetworking/NSURLSession (= 2.7.0)
-    - AFNetworking/Reachability (= 2.7.0)
-    - AFNetworking/Security (= 2.7.0)
-    - AFNetworking/Serialization (= 2.7.0)
-    - AFNetworking/UIKit (= 2.7.0)
-  - AFNetworking/NSURLConnection (2.7.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.7.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.7.0)
-  - AFNetworking/Security (2.7.0)
-  - AFNetworking/Serialization (2.7.0)
-  - AFNetworking/UIKit (2.7.0):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - slbswifttest (1.0.1)
   - testswiftoc (1.0.0):
-    - AFNetworking (~> 2.3)
+    - slbswifttest
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - testswiftoc (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - AFNetworking
-    - FBSnapshotTestCase
+  https://github.com/slb2709673/SlbSpces.git:
+    - slbswifttest
 
 EXTERNAL SOURCES:
   testswiftoc:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  testswiftoc: 39a8e9f584a89a7e41139798096dd4a50f850474
+  slbswifttest: fb56fe7ace7c01438f8ba56a9ff1135324e92157
+  testswiftoc: e9bf98af76b4615836cb938c060c5ebbe9592aa2
 
-PODFILE CHECKSUM: eb5ea41b6c3b989492978544bdb5816eb7b44c8e
+PODFILE CHECKSUM: 9e85caa2ef761fab5fcd74a5ca54d11ab12f9de2
 
 COCOAPODS: 1.5.3

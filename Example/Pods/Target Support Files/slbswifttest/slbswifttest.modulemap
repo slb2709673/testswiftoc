@@ -1,0 +1,6 @@
+framework module slbswifttest {
+  umbrella header "slbswifttest-umbrella.h"
+
+  export *
+  module * { export * }
+}

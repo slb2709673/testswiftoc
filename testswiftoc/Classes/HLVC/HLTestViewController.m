@@ -7,7 +7,7 @@
 //
 
 #import "HLTestViewController.h"
-
+#import "SLBLog.h"
 @interface HLTestViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    SLBLog *log = [[SLBLog alloc] init];
+    [log hahaha];
 }
 
 /*
