@@ -1,4 +1,4 @@
-framework module Pods_testswiftoc_Example {
+module Pods_testswiftoc_Example {
   umbrella header "Pods-testswiftoc_Example-umbrella.h"
 
   export *

@@ -1,5 +1,6 @@
 source 'https://github.com/slb2709673/SlbSpces.git'
-use_frameworks!
+#use_frameworks!
+use_modular_headers!
 
 platform :ios, '8.0'
 

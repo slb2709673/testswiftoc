@@ -1,6 +1,6 @@
 PODS:
   - slbswifttest (1.0.1)
-  - testswiftoc (1.0.0):
+  - testswiftoc (1.0.1):
     - slbswifttest
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   slbswifttest: fb56fe7ace7c01438f8ba56a9ff1135324e92157
-  testswiftoc: e9bf98af76b4615836cb938c060c5ebbe9592aa2
+  testswiftoc: 535c6b2cc365540eeb4bdbf6c4b65aae7ee73f2f
 
-PODFILE CHECKSUM: 9e85caa2ef761fab5fcd74a5ca54d11ab12f9de2
+PODFILE CHECKSUM: 48ada7a123450e0ff7441be7d9b9877f08b33ab4
 
 COCOAPODS: 1.5.3
